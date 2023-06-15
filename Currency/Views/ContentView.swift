@@ -9,42 +9,28 @@ import SwiftUI
 import RealmSwift
 
 struct ContentView: View {
-    let realmProvider: RealmProvider = RealmProvider()
-    let networkProvider: NetworkProvider = NetworkProvider()
-    func fetchCurrencies() {
-        networkProvider.fetchTopCurrencies { [weak self] result in
-            guard let self = self else {return}
-            switch result {
-            case .success(let currencies):
-                DispatchQueue.main.async {
-                    self.currencies = currencies
-                }
-                self.realmProvider.saveCurrencies(currencies)
-            case .failure(let error):
-                print("Failed to fetch currencies: \(error)")
-            }
-        }
-    }
+    @StateObject private var viewModel: ContentViewModel = ContentViewModel()
     var body: some View {
-        TabView {
+        TabView(selection: $viewModel.screenTag) {
             NavigationView {
-                MainView(viewModel: MainViewModel(networkProvider: networkProvider, realmProvider: realmProvider))
+                MainView()
+                    .environmentObject(viewModel.mainViewModel)
             }
             .tabItem {
                 Images.mainScreen.image
                 Text("Home")
             }
+            .tag(0)
             NavigationView {
-                PastOperationsView(viewModel: PastOperationsViewModel(networkProvider: networkProvider, realmProvider: realmProvider))
+                PastOperationsView(viewModel: viewModel.pastOperationsViewModel)
             }
             .tabItem {
                 Images.pastOperations.image
-                Text("Recent Operations")
+                Text("Past Operations")
             }
+            .tag(1)
         }
-        .onAppear {
-            
-        }
+        .tint(Colors.blue.color)
     }
 }
 

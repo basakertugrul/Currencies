@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+extension NSNotification {
+    static let changeScreenTag = Notification.Name.init("changeScreenTag")
+}

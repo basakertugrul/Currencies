@@ -7,14 +7,43 @@
 
 import SwiftUI
 
-struct Colors: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+enum Colors: String {
+    case black = "Black"
+    case green = "Green"
+    case gray = "Gray"
+    case red = "Red"
+    case secondary = "Secondary"
+    case blue = "Blue"
+    var color: Color {
+        switch self {
+        case .black:
+            return Color(UIColor(named: self.rawValue)!)
+        case .green:
+            return Color(UIColor(named: self.rawValue)!)
+        case .gray:
+            return Color(UIColor(named: self.rawValue)!)
+        case .red:
+            return Color(UIColor(named: self.rawValue)!)
+        case .secondary:
+            return Color(UIColor(named: self.rawValue)!)
+        case .blue:
+            return Color(UIColor(named: self.rawValue)!)
+        }
     }
-}
-
-struct Colors_Previews: PreviewProvider {
-    static var previews: some View {
-        Colors()
+    var uiColor: UIColor {
+        switch self {
+        case .black:
+            return UIColor(named: self.rawValue)!
+        case .green:
+            return UIColor(named: self.rawValue)!
+        case .gray:
+            return UIColor(named: self.rawValue)!
+        case .red:
+            return UIColor(named: self.rawValue)!
+        case .secondary:
+            return UIColor(named: self.rawValue)!
+        case .blue:
+            return UIColor(named: self.rawValue)!
+        }
     }
 }

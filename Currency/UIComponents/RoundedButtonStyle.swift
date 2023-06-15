@@ -7,14 +7,20 @@
 
 import SwiftUI
 
-struct RoundedButtonStyle: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+struct RoundedButtonStyle: ButtonStyle {
+    var font: Font = .title
+    var width: CGFloat = .infinity
+    func makeBody(configuration: Configuration) -> some View {
+        HStack {
+            configuration.label
+                .font(font)
+        }
+        .frame(maxWidth: width)
+        .padding(8)
+        .foregroundColor(.white)
+        .background(Colors.black.color)
+        .cornerRadius(font == .title ? 12 : 8)
+        .scaleEffect(configuration.isPressed ? 0.95 : 1.0)
     }
 }
 
-struct RoundedButtonStyle_Previews: PreviewProvider {
-    static var previews: some View {
-        RoundedButtonStyle()
-    }
-}

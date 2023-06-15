@@ -1,5 +1,5 @@
 //
-//  CurrencyHistory.swift
+//  TRYHistory.swift
 //  Currency
 //
 //  Created by Başak Ertuğrul on 14.06.2023.
@@ -13,8 +13,8 @@ class TRYHistory: Codable {
     var isIncreased: Bool {
         return self.data[Date().getPreviousDateString()]!.dataTRY > self.data[Date().getTwoDaysBeforeDateString()]!.dataTRY
     }
-    func getStringofValue(symbol: String) -> String {
-        let string: String = self.data[Date().getPreviousDateString()]!.dataTRY.string + symbol
+    func getStringofValue() -> String {
+        let string: String = self.data[Date().getPreviousDateString()]!.dataTRY.liraString
         return string
     }
     func getImageofValue() -> Image {

@@ -9,7 +9,16 @@ import SwiftUI
 
 struct EmptyView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(spacing: 8) {
+            Images.sadFace.image
+                .resizable()
+                .renderingMode(.template)
+                .frame(width: 54, height: 54)
+            Text("You don't have any operations.")
+                .font(.body)
+        }
+        .foregroundColor(.gray)
+        .padding()
     }
 }
 

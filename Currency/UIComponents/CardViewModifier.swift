@@ -7,14 +7,18 @@
 
 import SwiftUI
 
-struct CardViewModifier: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+struct CardBackground: ViewModifier {
+    func body(content: Content) -> some View {
+        content
+            .padding()
+            .background(Colors.secondary.color)
+            .cornerRadius(8)
+            .shadow(color: Colors.black.color.opacity(0.2), radius: 4)
     }
 }
 
-struct CardViewModifier_Previews: PreviewProvider {
-    static var previews: some View {
-        CardViewModifier()
+extension View {
+    func cardViewModifier() -> some View {
+        modifier(CardBackground())
     }
 }
