@@ -25,11 +25,15 @@
 		179EA9BA2A3300F2005C67BF /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179EA9B92A3300F2005C67BF /* ContentViewModel.swift */; };
 		179EA9BC2A3303B8005C67BF /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179EA9BB2A3303B8005C67BF /* Double.swift */; };
 		179EA9C02A330DD7005C67BF /* CurrencyCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179EA9BF2A330DD7005C67BF /* CurrencyCardView.swift */; };
-		179EA9C22A36F183005C67BF /* CurrencyInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179EA9C12A36F183005C67BF /* CurrencyInformation.swift */; };
 		179EA9C42A36F6E2005C67BF /* CardViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179EA9C32A36F6E2005C67BF /* CardViewModifier.swift */; };
 		179EA9C62A36FA14005C67BF /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179EA9C52A36FA14005C67BF /* Colors.swift */; };
 		179EA9C82A390A28005C67BF /* NSNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179EA9C72A390A28005C67BF /* NSNotification.swift */; };
 		179EA9CA2A390C44005C67BF /* BuyingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179EA9C92A390C44005C67BF /* BuyingView.swift */; };
+		179EA9CE2A3A5872005C67BF /* TRYHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179EA9CD2A3A5872005C67BF /* TRYHistory.swift */; };
+		179EA9D02A3A64E5005C67BF /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179EA9CF2A3A64E5005C67BF /* Date.swift */; };
+		179EA9D22A3B530F005C67BF /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179EA9D12A3B530F005C67BF /* Transaction.swift */; };
+		179EA9D52A3B5EAE005C67BF /* PastOperationCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179EA9D42A3B5EAE005C67BF /* PastOperationCardView.swift */; };
+		179EA9D72A3B65B2005C67BF /* EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179EA9D62A3B65B2005C67BF /* EmptyView.swift */; };
 		17E5CAE62A323D61007173E6 /* RoundedButtonStyleWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E5CAE52A323D61007173E6 /* RoundedButtonStyleWithIcon.swift */; };
 		17E5CAE82A323E59007173E6 /* RoundedButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E5CAE72A323E59007173E6 /* RoundedButtonStyle.swift */; };
 		17E5CAEC2A3243C5007173E6 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E5CAEB2A3243C5007173E6 /* Images.swift */; };
@@ -75,11 +79,15 @@
 		179EA9B92A3300F2005C67BF /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		179EA9BB2A3303B8005C67BF /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		179EA9BF2A330DD7005C67BF /* CurrencyCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyCardView.swift; sourceTree = "<group>"; };
-		179EA9C12A36F183005C67BF /* CurrencyInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyInformation.swift; sourceTree = "<group>"; };
 		179EA9C32A36F6E2005C67BF /* CardViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModifier.swift; sourceTree = "<group>"; };
 		179EA9C52A36FA14005C67BF /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		179EA9C72A390A28005C67BF /* NSNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSNotification.swift; sourceTree = "<group>"; };
 		179EA9C92A390C44005C67BF /* BuyingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyingView.swift; sourceTree = "<group>"; };
+		179EA9CD2A3A5872005C67BF /* TRYHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRYHistory.swift; sourceTree = "<group>"; };
+		179EA9CF2A3A64E5005C67BF /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		179EA9D12A3B530F005C67BF /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		179EA9D42A3B5EAE005C67BF /* PastOperationCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastOperationCardView.swift; sourceTree = "<group>"; };
+		179EA9D62A3B65B2005C67BF /* EmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyView.swift; sourceTree = "<group>"; };
 		17E5CAE52A323D61007173E6 /* RoundedButtonStyleWithIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButtonStyleWithIcon.swift; sourceTree = "<group>"; };
 		17E5CAE72A323E59007173E6 /* RoundedButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButtonStyle.swift; sourceTree = "<group>"; };
 		17E5CAEB2A3243C5007173E6 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
@@ -182,7 +190,7 @@
 			children = (
 				171AA4542A32296700C6BCDC /* ContentView.swift */,
 				179EA9BE2A330DC1005C67BF /* MainView */,
-				171AA4832A322A4300C6BCDC /* PastOperationsView.swift */,
+				179EA9D32A3B5E71005C67BF /* PastOperations */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -201,8 +209,9 @@
 			isa = PBXGroup;
 			children = (
 				171AA4892A32362C00C6BCDC /* Currency.swift */,
+				179EA9CD2A3A5872005C67BF /* TRYHistory.swift */,
 				179EA9B72A3269DB005C67BF /* Balance.swift */,
-				179EA9C12A36F183005C67BF /* CurrencyInformation.swift */,
+				179EA9D12A3B530F005C67BF /* Transaction.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -221,6 +230,7 @@
 			children = (
 				179EA9BB2A3303B8005C67BF /* Double.swift */,
 				179EA9C72A390A28005C67BF /* NSNotification.swift */,
+				179EA9CF2A3A64E5005C67BF /* Date.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -233,6 +243,16 @@
 				179EA9C92A390C44005C67BF /* BuyingView.swift */,
 			);
 			path = MainView;
+			sourceTree = "<group>";
+		};
+		179EA9D32A3B5E71005C67BF /* PastOperations */ = {
+			isa = PBXGroup;
+			children = (
+				171AA4832A322A4300C6BCDC /* PastOperationsView.swift */,
+				179EA9D62A3B65B2005C67BF /* EmptyView.swift */,
+				179EA9D42A3B5EAE005C67BF /* PastOperationCardView.swift */,
+			);
+			path = PastOperations;
 			sourceTree = "<group>";
 		};
 		17E5CAE42A323CFC007173E6 /* UIComponents */ = {
@@ -438,6 +458,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				179EA9D02A3A64E5005C67BF /* Date.swift in Sources */,
 				171AA4912A32372900C6BCDC /* NetworkProvider.swift in Sources */,
 				179EA9C02A330DD7005C67BF /* CurrencyCardView.swift in Sources */,
 				17E5CAE62A323D61007173E6 /* RoundedButtonStyleWithIcon.swift in Sources */,
@@ -445,20 +466,23 @@
 				179EA9C42A36F6E2005C67BF /* CardViewModifier.swift in Sources */,
 				171AA48C2A32364200C6BCDC /* MainViewModel.swift in Sources */,
 				17E5CAEC2A3243C5007173E6 /* Images.swift in Sources */,
+				179EA9D22A3B530F005C67BF /* Transaction.swift in Sources */,
 				179EA9BC2A3303B8005C67BF /* Double.swift in Sources */,
-				179EA9C22A36F183005C67BF /* CurrencyInformation.swift in Sources */,
 				171AA4552A32296700C6BCDC /* ContentView.swift in Sources */,
 				179EA9B82A3269DB005C67BF /* Balance.swift in Sources */,
 				17E5CAE82A323E59007173E6 /* RoundedButtonStyle.swift in Sources */,
 				171AA4882A322AD100C6BCDC /* PastOperationsViewModel.swift in Sources */,
 				179EA9C62A36FA14005C67BF /* Colors.swift in Sources */,
 				171AA4822A3229F600C6BCDC /* MainView.swift in Sources */,
+				179EA9CE2A3A5872005C67BF /* TRYHistory.swift in Sources */,
 				171AA4842A322A4300C6BCDC /* PastOperationsView.swift in Sources */,
 				179EA9BA2A3300F2005C67BF /* ContentViewModel.swift in Sources */,
 				171AA48A2A32362C00C6BCDC /* Currency.swift in Sources */,
 				171AA4532A32296700C6BCDC /* CurrencyApp.swift in Sources */,
+				179EA9D72A3B65B2005C67BF /* EmptyView.swift in Sources */,
 				171AA48F2A3236F500C6BCDC /* RealmProvider.swift in Sources */,
 				179EA9C82A390A28005C67BF /* NSNotification.swift in Sources */,
+				179EA9D52A3B5EAE005C67BF /* PastOperationCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
